@@ -1,0 +1,53 @@
+using System;
+//using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+
+        {
+
+            int votos;
+            int votos1;
+            int Resultado_Final;
+            string Candidatos ="1-TIRIRICA ,2-BOLSONARO ,3-GEISE ARRUDA , 4-OUTRO . ";
+            
+            Console.WriteLine("Escolha entre esses Candidatos atraves de seus numeros : "+Candidatos);
+            Console.ReadKey();
+
+
+
+            Resultado_Final = votos + votos1;
+
+
+            
+            /*
+            Console.WriteLine(value: "ESCREVA O PRIMEIRO VALOR =" );
+            votos = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(value: "ESCREVA O SEGUNDO VALOR =");
+            votos1 = int.Parse(Console.ReadLine());
+                      
+            Resultado_soma = votos+ votos1;
+           
+            /*Divisao*/
+            ;
+
+            /*multiplicaçao*/
+            
+            /*
+            Console.WriteLine("Resultado da Soma = " + Resultado_soma);
+            Console.WriteLine("Resultado da Divisao = " + Resultado_Divisao);
+            Console.WriteLine("Resultado da Multiplicacao = " + Resultado_multiplicacao + " , bem alto nâo ???? ");
+            Console.ReadKey();
+             */
+
+        }
+    }
+
+}
